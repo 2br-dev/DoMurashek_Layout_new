@@ -1,0 +1,16 @@
+[
+    {
+        "avatar": "/img/authors/olga.jpg",
+        "name": "Ольга Кононович",
+        "rank": "Бренд-стратег,<br>агентство 2Br",
+        "class": "col xl4 offset-xl2 l5 offset-l1 m6 s6",
+        "instagram": "https://instagram.com/olga_kononovich"
+    },
+    {
+        "avatar": "/img/authors/hannah.jpg",
+        "name": "Анна Дуглас",
+        "rank": "Стилист,<br>вдохновитель",
+        "class": "col xl4 l5 m6 s6",
+        "instagram": "https://instagram.com/duglas_glow"
+    }
+]

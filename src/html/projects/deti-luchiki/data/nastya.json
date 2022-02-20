@@ -1,0 +1,62 @@
+[
+    {
+        "smallImage": "/img/gallery/nastya/1.jpg",
+        "bigImage": "/img/gallery/nastya/1.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/2.jpg",
+        "bigImage": "/img/gallery/nastya/2.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/3.jpg",
+        "bigImage": "/img/gallery/nastya/3.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/4.jpg",
+        "bigImage": "/img/gallery/nastya/4.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/5.jpg",
+        "bigImage": "/img/gallery/nastya/5.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/6.jpg",
+        "bigImage": "/img/gallery/nastya/6.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/8.jpg",
+        "bigImage": "/img/gallery/nastya/8.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/7.jpg",
+        "bigImage": "/img/gallery/nastya/7.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/9.jpg",
+        "bigImage": "/img/gallery/nastya/9.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/nastya/10.jpg",
+        "bigImage": "/img/gallery/nastya/10.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "smallImage": "/img/gallery/alina/1.jpg",
+        "bigImage": "/img/gallery/alina/1.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/2.jpg",
+        "bigImage": "/img/gallery/alina/2.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/3.jpg",
+        "bigImage": "/img/gallery/alina/3.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/4.jpg",
+        "bigImage": "/img/gallery/alina/4.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/5.jpg",
+        "bigImage": "/img/gallery/alina/5.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/6.jpg",
+        "bigImage": "/img/gallery/alina/6.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/8.jpg",
+        "bigImage": "/img/gallery/alina/8.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/7.jpg",
+        "bigImage": "/img/gallery/alina/7.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/9.jpg",
+        "bigImage": "/img/gallery/alina/9.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    },
+    {
+        "smallImage": "/img/gallery/alina/10.jpg",
+        "bigImage": "/img/gallery/alina/10.jpg",
+        "size": "1000x1500",
+        "class": "v"
+    }
+]

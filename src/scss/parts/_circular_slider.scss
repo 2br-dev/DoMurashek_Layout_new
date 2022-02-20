@@ -1,0 +1,251 @@
+$maxSlideCount: 10;
+$distance: 50;
+$circleSize: 22vw;
+
+.slider-container{
+
+    height: 100vmin;
+    position: relative;
+
+    & .slider-wrapper{
+        
+        top: 50%;
+        right: 0vmax;
+        width: 26vmax;
+        height: 26vmax;
+        border-radius: 50%;
+        position: relative;
+        position: absolute;
+        transform: translateZ(0) translateX(50%) translateY(-50%);
+        
+        &:before{
+            content: '';
+            display: block;
+            box-shadow: 0 0 0 1px #fff inset;
+            position: absolute;
+            width: calc(100% + #{$circleSize});
+            height: calc(100% + #{$circleSize});
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    
+        & a.circular-arrow{
+            border: 2px solid #ccc;
+            position: absolute;
+            z-index: 140;
+            width: 30px;
+            height: 30px;
+            transform: rotate(45deg);
+            
+            &.prev{
+                border-top: 0;
+                border-left: 0;
+                left: -10.5vw;
+                top: calc(50% + 7.5vw);
+                transform: rotate(45deg);
+            }
+            
+            &.next{
+                @extend .prev;
+                top: calc(50% - 8.5vw);
+                transform: rotate(-135deg);
+            }
+        }
+        
+        @for $z from 1 to $maxSlideCount{
+            
+            & .slides{
+                position: relative;
+                display: block;
+                margin: 0;
+                height: 100%;
+                border-radius: 50%;
+                list-style: none;
+                padding: 0;
+                z-index: 80;
+                
+                &.active#{$z}{
+                    
+                    transform: rotate(#{$z * -$distance}deg);
+                    will-change: transform;
+                    transition: transform .6s;
+    
+                    & .slide-container{
+                        position: relative;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        z-index: #{$maxSlideCount - $z};
+    
+                        & .slide-transformer{
+    
+                            width: 12vw;
+                            height: 7vw;
+                            position: absolute;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 2;
+                        }
+                        
+                        @for $i from 1 to $maxSlideCount{
+    
+                            &:nth-child(#{$i}){
+                                transform: rotate(#{$i * $distance}deg);
+    
+                                & .slide-transformer{
+                                    will-change: transform;
+                                    transform: translate(-140%, -50%) rotate(#{-($i * $distance) + ($z * $distance)}deg);
+                                    transition: transform .6s;
+                                }
+                            }
+                            
+                            & .slide{
+                                
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                box-shadow: 0 3px 8px rgba(black, .1);
+                                background: #fff;
+                                border-radius: 20px;
+                                transition: transform .6s, box-shadow .2s;
+                                overflow: hidden;
+                                
+                                & .slide-cover{
+                                    display: none;
+                                    background: $luchiki-primary;
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    transition: opacity .6s;
+                                    will-change: opacity;
+                                    border-radius: 20px;
+                                    
+                                    &:before{
+                                        content: '';
+                                        position: absolute;
+                                        border: 45px solid transparent;
+                                        border-left-color: #fff;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(calc(-50% + 25px), -50%) scaleY(.5);
+                                    }
+                                }
+    
+                                & .slide-content{
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+
+                                &:hover{
+                                    box-shadow: 0 12px 24px rgba(black, .1);
+                                }
+                            }
+                        }
+    
+                        &.active{
+    
+                            & .slide{
+    
+                                & .slide-cover{
+                                    opacity: 0;
+                                    pointer-events: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    & .slider-navi{
+    
+        position: relative;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0;
+        width: 17vmax;
+        height: 17vmax;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        list-style: none;
+        padding: 0;
+        z-index: 120;
+    
+        &:before{
+            content: '';
+            display: block;
+            box-shadow: 0 0 0 1px #fff inset;
+            width: calc(100% + 24px);
+            height: calc(100% + 24px);
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        & li{
+            display: block;
+            position: relative;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+
+            &:hover{
+                &:before{
+                    background:$luchiki-primary;
+                }
+            }
+    
+            &:before{
+                content: '';
+                display: block;
+                width: 7px;
+                height: 7px;
+                background: #fff;
+                border-radius: 50%;
+                left: -16px;
+                top: 50%;
+                position: absolute;
+                transition: transform .6s, background-color .2s;
+                will-change: transform;
+                cursor: pointer;
+            }
+
+            &:after{
+                @extend :before;
+                width: 40px;
+                height: 40px;
+                left: -12px;
+                background: transparent !important;
+                transform: translate(-50%, -50%) !important;
+            }
+    
+            @for $i from 1 to $maxSlideCount{
+    
+                &:nth-child(#{$i}){
+                    transform: rotate(#{($maxSlideCount - $distance) + $i * $distance / 4}deg);
+                }
+            }
+    
+            &.active{
+    
+                &:before{
+                    transform: scale(3);
+                }
+            }
+        }
+    }
+}

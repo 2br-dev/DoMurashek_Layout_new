@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Настя",
+        "age": "12 лет",
+        "color": "green",
+        "image": "136",
+        "alias": "nastya"
+    },
+    {
+        "name": "Алина",
+        "age": "13 лет",
+        "color": "yellow",
+        "image": "137",
+        "alias": "alina"
+    },
+    {
+        "name": "Полина",
+        "age": "9 лет",
+        "color": "red",
+        "image": "139",
+        "alias": "polina"
+    },
+    {
+        "name": "Олеся",
+        "age": "13 лет",
+        "color": "beige",
+        "image": "140",
+        "alias": "olesya"
+    },
+    {
+        "name": "Дима",
+        "age": "12 лет",
+        "color": "green",
+        "image": "141",
+        "alias": "dima"
+    },
+    {
+        "name": "Паша",
+        "age": "11 лет",
+        "color": "yellow",
+        "image": "145",
+        "alias": "pasha"
+    },
+    {
+        "name": "Демьян",
+        "age": "11 лет",
+        "color": "beige",
+        "image": "146",
+        "alias": "demyan"
+    },
+    {
+        "name": "Костя",
+        "age": "12 лет",
+        "color": "red",
+        "image": "147",
+        "alias": "kostya"
+    },
+    {
+        "name": "Маша",
+        "age": "21 лет",
+        "color": "beige",
+        "image": "174",
+        "alias": "masha"
+    }
+]

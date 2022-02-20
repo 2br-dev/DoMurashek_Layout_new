@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./parts/head.html', {title: "Страница проекта"})
+</head>
+
+<body>
+    @@include('../../parts/header.html')
+    <main id="luchiki" class="luchiki">
+        <section id="hero">
+            <div class="container">
+                <div class="row flex vcenter">
+                    <div class="col l5 m6 s12 text-padding order-1-m-down">
+                        <h1>Дети-лучики</h1>
+                        <p class="text-padding">
+                            для нас больше, чем очередной проект. Это целая история. Неожиданная и интересная. 
+                            Книгу не судят по обложке, а проекты по темам.  Дети-лучики – это не история о боли, 
+                            непонимании и одиночестве. Совсем наоборот!
+                        </p>
+                    </div>
+                    <div class="col l7 m6 s12">
+                        <div class="hero-image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="heroes">
+            <div class="container">
+                <div class="row">
+                    <div class="col l1 m12">
+                        <div class="vtext">
+                            <h2 class="bold">Наши герои</h2>
+                        </div>
+                    </div>
+                    <div class="col l11 m12">
+                        <div class="swiper" id="heroes-slider">
+                            <div class="swiper-wrapper">
+                                @@loop('./parts/hero-card.html', './data/heroes.json')
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="backstage">
+            <div class="container">
+                <div class="row flex">
+                    <div class="col l1 m12 s12">
+                        <div class="vtext-wrapper">
+                            <div class="vtext">
+                                <h2 class="bold">Backstage</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l11 m12 s12">
+                        <div class="row flex vcenter">
+                            <div class="col s8">
+                                <h3>Самое интересное всегда остаётся за кадром</h3>
+                                <p>
+                                    Фотосессия для “Детей-Лучиков” больше чем просто фотографии. Для детей – это новый 
+                                    и неожиданный опыт: не каждый день им приходится быть моделями и позировать перед 
+                                    объективами камер. Для участников проекта – возможность убедиться, что работа 
+                                    с особенными людьми ничем не отличается от их повседневной работы. Это также весело, 
+                                    интересно и круто. И даже больше: детей с особенностями не часто балуют вниманием, 
+                                    поэтому они с невероятной теплотой отвечают на поддержку и заботу. Каждая фотография – 
+                                    небольшая история. Мы решили собрать их все в одном месте, чтобы вы могли увидеть, 
+                                    как всё проходило изнутри.
+                                </p>
+                                <a href="./backstage.html" class="btn-luchiki">Смотреть галерею</a>
+                            </div>
+                            <div class="col l5 hide-l-down m12">
+                                <div class="backstage-text-slides">
+                                    @@loop('./parts/backstage-text-slide.html', './data/backstage-text.json')
+                                </div>
+                            </div>
+                            <div class="col l6 hide-l-down m12">
+                                <div class="slider-container">
+                                    <div class="slider-wrapper">
+                                        <a href="" class="circular-arrow prev"></a>
+                                        <a href="" class="circular-arrow next"></a>
+                                        <ul class="slides active2">
+                                            @@loop('./parts/backstage-desktop-slide.html', './data/backstage-text.json')
+                                        </ul>
+                                        <ul class="slider-navi">
+                                            <li class="slider-navi-dot" data-slide="1"></li>
+                                            <li class="slider-navi-dot" data-slide="2"></li>
+                                            <li class="slider-navi-dot" data-slide="3"></li>
+                                            <li class="slider-navi-dot" data-slide="4"></li>
+                                            <li class="slider-navi-dot active" data-slide="5"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 hide-l-up">
+                                <div class="swiper" id="backstage-mobile">
+                                    <div class="swiper-wrapper">
+                                        @@loop('./parts/backstage-mobile-slide.html', './data/backstage-text.json')
+                                    </div>
+                                    <a href="#" class="backstage-prev"><i class="mdi mdi-chevron-left"></i></a>
+                                    <a href="#" class="backstage-next"><i class="mdi mdi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="maraphone">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>Марафон добрых дел</h2>
+                    </div>
+                    <div class="col l8 m10 s12">
+                        <p class="text-padding">
+                            Хорошая компания, солнечное настроение, задор и желание устроить небольшой праздник – 
+                            главные ингредиенты нашего марафона добрых дел. Он собрал абсолютно разных людей: 
+                            знакомых и незнакомых, знающих о синдроме Дауна всё и тех, кто услышал о нём едва 
+                            ли не впервые. Собрал и объединил общей целью: сделать обычный день особенным 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ultra-wide">
+                <div class="row" id="gallery">
+                    <div class="col xl2 l3 m4 s12">
+                        <div class="images-wrapper col1" data-enllax-type="foreground" data-enllax-ratio="0.07" data-default-ratio="0.07">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/1.json")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xl2 l3 m4 hide-s-down" data-enllax-type="foreground" data-enllax-ratio="-0.03" data-default-ratio="-0.03">
+                        <div class="images-wrapper col2">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/2.json")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xl2 l3 m4 hide-s-down" data-enllax-type="foreground"  data-enllax-ratio=".2" data-default-ratio=".2">
+                        <div class="images-wrapper col3">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/3.json")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xl2 l3 m4 t4 hide-l-down" data-enllax-type="foreground" data-enllax-ratio="-0.03" data-default-ratio="-0.03">
+                        <div class="images-wrapper col4">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/4.json")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xl2 l2 hide-xl-down" data-enllax-type="foreground" data-enllax-ratio="0.05" data-default-ratio="0.05">
+                        <div class="images-wrapper col5">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/5.json")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col xl2 l2 hide-xl-down" data-enllax-type="foreground" data-enllax-ratio="-0.05" data-enllax-ratio="-0.05">
+                        <div class="images-wrapper col6">
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                @@loop('./parts/maraphone-image.html', "./data/maraphone/6.json")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="maraphone-conclusion">
+            <div class="container" data-enllax-type="foreground" data-enllax-ratio="-0.05" data-default-ratio="-0.05">
+                <div class="row">
+                    <div class="col xl5 offset-xl7 l6 offset-l6 m8 offset-m4 s12">
+                        <div class="hiw">
+                            <h3>Как это было</h3>
+                            <p>
+                                Иногда так приятно вырваться из цепких лап городской суеты и провести время в хорошей компании: 
+                                вместе творить, петь песни, танцевать (куда же без танцев!), воплощать мечты и исполнять желания. 
+                                Представили? Это и есть марафон добрых дел. Посмотрите как это было: возможно тогда мы увидим 
+                                на следующем марафоне и вас! 
+                            </p>
+                            <a href="./maraphone.html" class="btn-luchiki">Смотреть галерею</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="branding">
+            <div class="container">
+                <div class="row flex">
+                    <div class="col s12 center-align">
+                        <h2>Новый фирменный стиль</h2>
+                    </div>
+                    <div class="col l8 right-align s12">
+                        <div class="lazy logo-history hide-l-down" data-src="/img/logo-history.svg"></div>
+                        <div class="lazy logo-full hide-l-up" data-src="/img/logo-full.svg"></div>
+
+                        <div class="lazy cups" data-src="/img/cups.png"></div>
+                        <div class="hide-l-up center-align">
+                            <h3>Сувенирная продукция</h3>
+                            <p>
+                                Мы постарались поделиться настроем на позитив таким образом, 
+                                чтобы посетитель центра смог ощутить тепло в прямом и переносном 
+                                смысле слова, взяв кружку чая или кофе, и прочитав посыл, написанный там.
+                            </p>
+                        </div>
+                        <div class="pen-wrapper">
+                            <div class="lazy pens" data-src="/img/pens.png"></div>
+                        </div>
+                    </div>
+                    <div class="col l4 logo-top">
+                        <div class="lazy logo-final hide-l-down" data-src="/img/logo-final.svg"></div>
+                        <div class="logo-bottom"></div>
+                        <div class="top-info-block hide-l-down align-right-l-up">
+                            <h3>Сувенирная продукция</h3>
+                            <p>
+                                Мы постарались поделиться настроем на позитив таким образом, 
+                                чтобы посетитель центра смог ощутить тепло в прямом и переносном 
+                                смысле слова, взяв кружку чая или кофе, и прочитав посыл, написанный там.
+                            </p>
+                        </div>
+                        <div class="text-bottom"></div>
+                        <div class="bottom-info-block align-center-l-down align-right-l-up">
+                            <h3>И не только</h3>
+                            <p>
+                                В рамках проекта мы отобразили, каким образом логотип будет жить на различных 
+                                рекламных носителях – от крошечных авторучек до гигантских билбордов, на печатной 
+                                или сувенирной продукции, а также в наружной рекламе.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="billboard lazy" data-src="/img/billboard.png">
+                            <div class="lazy person-left" data-src="/img/child.png"></div>
+                            <div class="lazy person-right" data-src="/img/man.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('../../parts/gallery-dom.html')
+    @@include('../../parts/footer.html')
+</body>
+
+@@include('./parts/scripts.html')
+
+</html>

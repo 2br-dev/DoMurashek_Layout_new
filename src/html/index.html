@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./parts/head.html', {title: "Главная"})
+<body>
+    @@include('./parts/header.html')
+    <main id="main">
+        <section id="hero">
+            <div id="canvas-wrapper"></div>
+            <div class="descriptor">
+                Мы живём в необычным мире, в нём много особенных вещей, событий и людей. 
+                Кто-то их не замечает, кто-то относится с непониманием, а многие просто ничего не знают о них.
+                И мы хотим рассказать об этих необычных людях и их возможностях. 
+            </div>
+        </section>
+        <section id="heroes-grid" class="white-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h1>Проект №1</h1>
+                        <div class="subheader">«Солнечным людям - солнечные фото»</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col xl6 offset-xl3 center-align">
+                        <p class="hyphen">
+                            Наш рассказ сегодня пойдёт о воспитанниках центра поддержки семей, 
+                            воспитывающих детей с синдромом Дауна «Дети Лучики», 
+                            их родителях и педагогах.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="grid-wrapper invisible" id="heroes" data-class="grid-wrapper">
+                            <div class="grid-image lazy" data-src="/img/top-slider/136.png" id="hero-1"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/137.png" id="hero-2"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/139.png" id="hero-3"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/140.png" id="hero-4"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/141.png" id="hero-5"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/145.png" id="hero-6"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/146.png" id="hero-7"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/147.png" id="hero-8"></div>
+                            <div class="grid-image lazy" data-src="/img/top-slider/174.png" id="hero-9"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center-align"><a href="./projects/deti-luchiki/index.html" class="btn">Узнать больше</a></div>
+                </div>
+            </div>
+        </section>
+        <section id="authors">
+            <div class="container">
+                <div class="row authors">
+                    <div class="col s12 center-align">
+                        <h2>Авторы проекта</h2>
+                    </div>
+                    @@loop('./parts/authors.html', './data/authors.json')
+                </div>
+            </div>
+            <div class="container">
+                <div class="row members flex">
+                    <div class="col s12 center-align">
+                        <h2>Участники проекта</h2>
+                    </div>
+                    @@loop('./parts/authors.html', './data/members.json')
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col xl6 offset-xl3 l8 offset-l2 m12 center-align">
+                        <p class="hyphen">
+                            Мы не благотворительный фонд, мы просто хотим сделать 
+                            будущее людей с СД и их родителей комфортнее, безопаснее, 
+                            светлее. Каждый из нас специалист в какой-либо сфере, 
+                            либо обладает возможностями, чтобы оказать помощь. 
+                            В этом деле важнее всего не деньги, а участие. 
+                            Помочь может абсолютно каждый и сейчас мы расскажем 
+                            как это сделать
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a href="#contact" class="btn modal-trigger">Написать авторам</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="facts">
+            <div class="parallax-container">
+                <div class="photo-copyright">Фото – © Василий Ярошевич</div>
+                <div class="lazy parallax" data-src="/img/facts-section.jpg"></div>
+            </div>
+            <div class="link-wrapper">
+                <div class="row flex">
+                    <div class="col xl5 l5 m12 align-center-l-down">
+                        <h2>Факты, которые решают</h2>
+                    </div>
+                    <div class="col xl5 l5 m12">
+                        <p class="hyphen">
+                            На протяжении длительного времени сформировался целый ряд 
+                            предрассудков, которые формируют негативное отношение 
+                            к людям с синдромом Дауна. Мы приведём лишь несколько, 
+                            и поможем понять, что синдром Дауна – не болезнь, 
+                            и не приговор, это лишь особенность, которую нужно учитывать.
+                        </p>
+                    </div>
+                    <div class="col xl2 l2 m12 align-right-l-up align-center-l-down">
+                        <div class="action-wrapper">
+                            <a href="/facts.html" class="btn-white outline">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="possibilities">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h2>Ваши возможности</h2>
+                    </div>
+                </div>
+                <div class="row possibility flex invisible" data-class="row possibility flex">
+                    <div class="col l5 image-wrapper m6">
+                        <div class="lazy" data-src="/img/possibilities/p1.png"></div>
+                    </div>
+                    <div class="col l6 offset-l1 xl5 offset-xl1 m6">
+                        <h3>Рассказать своей аудитории об этом проекте и об этих людях</h3>
+                        <p class="hyphen">
+                            Мы создаём фотопроект, в котором герои – люди с синдром Дауна и их родители. 
+                            Просто посмотрите на них и поверьте в их возможности! :). Сделайте репост 
+                            новостей об этом проекте (не забудьте подписаться  @deti_luchiki, @do_murashek). 
+                            Или просто приходите в гости к Детям-Лучикам и создайте свой контент!
+                        </p>
+                        <div class="p-action">
+                            <a href="#share" class="btn modal-trigger">Поделиться</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row possibility flex invisible" data-class="row possibility flex">
+                    <div class="col xl5 offset-xl1 m6">
+                        <h3>Вы предприниматель или управленец?</h3>
+                        <p class="hyphen">
+                            Вы можете пригласить на работу особенного человека хотя бы в формате
+                            стажировки и помощи в социализации.
+                        </p>
+                        <p class="hyphen">
+                            Люди с особенностями способны справляться со многими видами работ. Да, есть определенные
+                            ограничения, но как показывает практика, по качеству и производительности труда
+                            они ничуть не хуже чем люди без особенностей
+                        </p>
+                        <div class="p-action">
+                            <a href="#contact" class="btn modal-trigger">Узнать подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col xl5 l5 offset-xl1 offset-l1 m6 image-wrapper">
+                        <div class="lazy" data-src="/img/possibilities/p2.png"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row possibility flex invisible" data-class="row possibility flex">
+                    <div class="col l5 image-wrapper m6">
+                        <div class="lazy" data-src="/img/possibilities/p3.jpg"></div>
+                    </div>
+                    <div class="col l6 offset-l1 xl5 offset-xl1 m6">
+                        <h3>Вы мастер своего дела?</h3>
+                        <p class="hyphen">
+                            Вы можете научить людей своему ремеслу. Для этого нужно лишь
+                            прийти в центр и дать им новые полезные навыки и умения.
+                        </p>
+                        <p class="hyphen">
+                            Да, некоторые люди с СД учатся и усваивают информацию медленнее, но разве все люди, 
+                            в том числе и без особенностей, думают с одинаковой скоростью?
+                        </p>
+                        <div class="p-action">
+                            <a href="#contact" class="btn modal-trigger">Хочу помочь</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row possibility flex invisible" data-class="row possibility flex">
+                    <div class="col xl5 offset-xl1 m6">
+                        <h3>Вы работаете на производстве?</h3>
+                        <p class="hyphen">
+                            У вас есть возможность применить результаты их труда у себя. Например создать
+                            тематический мерч. Люди с СД творят не хуже остальных, а благодаря особенностям своего
+                            мышления, их произведения искусства не похожи на то, что мы привыкли видеть (чаще всего)
+                        </p>
+                        <div class="p-action">
+                            <a href="#contact" class="btn modal-trigger">Хочу помочь</a>
+                        </div>
+                    </div>
+                    <div class="col xl5 l5 offset-xl1 offset-l1 m6 image-wrapper">
+                        <div class="lazy" data-src="/img/possibilities/p4.png"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row possibility flex invisible" data-class="row possibility flex">
+                    <div class="col l5 image-wrapper m6">
+                        <div class="lazy" data-src="/img/possibilities/p5.png"></div>
+                    </div>
+                    <div class="col l6 offset-l1 xl5 offset-xl1 m6">
+                        <h3>Все эти условия применимы не только к особенным людям, но и к их родителям</h3>
+                        <p class="hyphen">
+                            Детям с СД нужно чуть больше внимания, чтобы не отставать от сверстников и успешно развиваться.
+                            Следовательно и родительского внимания, а также финансов нужно куда больше. Но как уделять достаточное 
+                            внимание ребенку, но при этом зарабатывать деньги? 2020 год ярко показал, что удаленка может быть
+                            эффективной. Не всегда и не на всех должностях, но тренд на удаленную работу четко прослеживается.
+                            Удаленная не фулл-тайм работа – идеальный выход для матерей или отцов особенных детей.
+                        </p>
+                        <div class="p-action">
+                            <a href="#contact" class="btn modal-trigger">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row possibility invisible" data-class="row possibility">
+                    <div class="col xl6 offset-xl3 l6 offset-l3 m6 offset-m3 s12">
+                        <div class="image-wrapper">
+                            <div class="lazy" data-src="/img/possibilities/p6.png"></div>
+                        </div>
+                        <h3>Но Самое главное, что может абсолютно каждый</h3>
+                        <p class="hyphen">
+                            Принять их такими какие они есть и стать их другом. Мы все очень разные, 
+                            но всем нам нужно одно: поддержка, понимание, забота, дружба. 
+                            В конце концов, быть другим – это не значит быть одиноким.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="summary">
+            <div class="container">
+                <div class="row">
+                    <div class="col xl6 offset-xl1 l6">
+                        <div class="lazy" data-src="/img/summary.jpg"></div>
+                    </div>
+                    <div class="col xl5 l6 align-center-l-down">
+                        <h2>Подводя итог</h2>
+                        <p class="hyphen">
+                            Люди с синдромом Дауна могут и должны развиваться, 
+                            работать и обретать свое место в жизни. В Европе 
+                            у них есть профессия, семья и другие блага обычного 
+                            человека. В нашей стране у солнечных людей 
+                            эти возможности ограничены, и только общими силами 
+                            мы можем рушить стены неприятия, и нужна для этого 
+                            самая малость: немного времени, чтобы узнать о них 
+                            всю правду, капля понимания, чтобы принять их различия, 
+                            и открытое сердце, чтобы делать мир лучше вместе с ними.
+                        </p>
+                        <div class="button-wrapper">
+                            <a href="/facts.html" class="btn-white">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="merch">
+            <div class="container">
+                <div class="row flex">
+                    <div class="col s12 center-align">
+                        <h2>Вот конкретный пример концепции мерча. </h2>
+                    </div>
+                    <div class="col l4 m6 s12">
+                        <div class="lazy masha" data-src="/img/merch/masha.jpg"></div>
+                    </div>
+                    <div class="col l5 m12 text">
+                        <div class="row">
+                            <div class="col l12">
+                                <div class="lazy masha-logo" data-src="/img/merch/masha_logo.svg"></div>
+                                <p class="hyphen">
+                                    Уже сейчас наша команда активно поддерживает Марию Мордвинцеву.
+                                    Маша — художник с синдромом Дауна. Марии 21 год и она пишет картины,
+                                    которые поражают воображение своей сюрреалестичной красочностью и абсолютно
+                                    необычными сюжетами. Мы убеждены, в том, что творчество Маши способно
+                                    дать понять нам, как видят этот мир такие необычные люди
+                                </p>
+                            </div>
+                            <div class="col l6 m6 s12"><div class="lazy cup" data-src="/img/merch/cups.png"></div></div>
+                            <div class="col l6 m6 s12"><div class="lazy shirts" data-src="/img/merch/shirts.png"></div></div>
+                        </div>
+                    </div>
+                    <div class="col l3 m6 s12">
+                        <div class="lazy bag" data-src="/img/merch/bag.jpg"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col center-align">
+                        <a href="https://маша-солнце.рф" target="_blank" rel="nofollow" class="btn">Открыть сайт Маши</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('./parts/footer.html')
+    @@include('./parts/scripts.html')
+</body>
+</html>

@@ -1,0 +1,45 @@
+.backstage-text-slides{
+
+
+    width: 80%;
+    position: relative;
+    min-height: 500px;
+
+    &:before{
+        content:'';
+        display: block;
+        position: absolute;
+        width: 360px;
+        height: 180px;
+        border-radius: 20px;
+        background: $luchiki-primary;
+    }
+
+    .backstage-slide-text{
+
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        width: 100%;
+        height: fit-content;
+        transition: opacity .6s;
+        opacity: 0;
+        transform: none;
+
+        & p{
+            margin: 0;
+        }
+
+        &.active{
+            opacity: 1;
+        }
+
+        &.up{
+            transform: translateY(-50px);
+        }
+
+        &.dn{
+            transform: translateY(50px);
+        }
+    }
+}

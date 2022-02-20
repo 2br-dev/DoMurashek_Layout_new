@@ -1,0 +1,114 @@
+[
+	{
+		"wrapper-class": "desktop medium tablet",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/1.jpg",
+		"smallImage": "/img/maraphone/1.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "desktop medium tablet",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/2.jpg",
+		"smallImage": "/img/maraphone/2.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "medium tablet",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/3.jpg",
+		"smallImage": "/img/maraphone/3.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "medium tablet",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/4.jpg",
+		"smallImage": "/img/maraphone/4.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "tablet",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/5.jpg",
+		"smallImage": "/img/maraphone/5.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "tablet",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/6.jpg",
+		"smallImage": "/img/maraphone/6.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/7.jpg",
+		"smallImage": "/img/maraphone/7.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/8.jpg",
+		"smallImage": "/img/maraphone/8.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/9.jpg",
+		"smallImage": "/img/maraphone/9.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/10.jpg",
+		"smallImage": "/img/maraphone/10.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/11.jpg",
+		"smallImage": "/img/maraphone/11.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/12.jpg",
+		"smallImage": "/img/maraphone/12.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "v",
+		"bigImage": "/img/maraphone/13.jpg",
+		"smallImage": "/img/maraphone/13.jpg",
+		"size": "998x1500"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/14.jpg",
+		"smallImage": "/img/maraphone/14.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/15.jpg",
+		"smallImage": "/img/maraphone/15.jpg",
+		"size": "1500x998"
+	},
+	{
+		"wrapper-class": "",
+		"inner-class": "h",
+		"bigImage": "/img/maraphone/16.jpg",
+		"smallImage": "/img/maraphone/16.jpg",
+		"size": "1500x998"
+	}
+]

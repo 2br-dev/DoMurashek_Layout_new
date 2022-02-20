@@ -1,0 +1,2 @@
+npm init
+npm i gulp gulp-babel @babel/core @babel/preset-env node-sass gulp-sass gulp-file-include gulp-concat gulp-autoprefixer browser-sync gulp-uglify gulp-order

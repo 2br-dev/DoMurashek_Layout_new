@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og://ogp.me/ns#">
+<head>
+    @@include('./parts/head.html', {title: "Backstage"})
+</head>
+<body>
+    @@include('../../parts/header.html')
+    <main id="project-person" class="luchiki">
+        <section id="head">
+            <div class="container">
+				<div class="row">
+					<div class="col s12 center-align">
+						<h1>Backstage</h1>
+					</div>
+				</div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                            @@loop('./parts/gallery-image.html', './data/kostya.json')
+                        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    @@include('../../parts/gallery-dom.html')
+    @@include('../../parts/footer.html')
+
+    @@include('./parts/scripts.html')
+</body>
+</html>

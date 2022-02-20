@@ -1,0 +1,59 @@
+header{
+
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	background: rgba(#fff, .9);
+	backdrop-filter: blur(20px);
+    
+    & nav{
+
+		border-bottom: 1px solid $grey;
+               
+        & .container{
+
+            display: flex;
+            padding: 0;
+
+            & a{
+                color: $text;
+
+                &.menu{
+                    width: 54px;
+                    background: url(/img/menu.svg) center center no-repeat;
+                }
+            }
+            
+            & .logo{
+                width: 260px;
+                background: url(/img/do-murashek_logo.svg) center center no-repeat;
+                background-size: auto 60%;
+                min-height: 54px;
+            }
+            
+            & .separator{
+                flex-grow: 1;
+            }
+            
+            & ul{
+                display: flex;
+                margin: 0;
+                
+                & li{
+                    
+                    & a{
+                        line-height: 54px;
+                        padding:  0 10px;
+                        display: block;
+                        
+                        &:hover{                            
+                            background-color: rgba(black, .1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

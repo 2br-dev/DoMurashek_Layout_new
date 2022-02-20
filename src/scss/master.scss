@@ -1,0 +1,21 @@
+// Include framework =====================================
+@import './framework/materialize';
+@import './framework/materialdesignicons';
+
+// Include parts =========================================
+@import './parts/vars';
+@import './parts/media';
+@import './parts/custom_grid';
+@import './parts/header';
+@import './parts/helpers';
+@import './parts/typography';
+@import './parts/footer';
+@import './parts/circular_slider';
+@import './parts/backstage_slider';
+@import './parts/zoom_slider';
+
+// Include entire pages ==================================
+@import './pages/main';
+@import './pages/facts';
+@import './pages/project';
+@import './pages/project_person';

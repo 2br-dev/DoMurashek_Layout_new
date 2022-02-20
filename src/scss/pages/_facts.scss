@@ -1,0 +1,245 @@
+main#facts{
+
+    & section{
+
+        padding: 3vw 0;
+
+        &#hero{
+
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            position: relative;
+
+            & .photo-copyright{
+
+                position: absolute;
+                top: 74px; 
+                right: 20px;
+                color: #78CCC4;
+                font-weight: 300;
+            }
+
+            & .lazy{
+                flex-grow: 1;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+
+        &#link-wrapper{
+
+            background-color: $secondary;
+            color: #fff;
+            padding: 0;
+
+            @media(min-width: $medium){
+                position: sticky;
+                bottom: 0;
+            }
+
+            & .row{
+
+                align-items: center;
+
+                & h1{
+                    padding: 0 20px;
+                    font-size: 48px;
+                    line-height: 1em;
+                }
+            }
+        }
+
+        &#facts{
+
+            padding: 0;
+
+            & .col{
+                
+                margin-bottom: 3.5rem;
+
+                & .lazy{
+                    padding-bottom: 50%;
+                    background-size: cover;
+                    background-position: center center;
+                }
+            }
+        }
+
+        &#news{
+
+            padding-top: 0;
+
+            
+            & .col{
+
+                margin-bottom: 3.5rem;
+
+                & .lazy{
+                    padding-bottom: 70%;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                & .source{
+                    font-size: 14px;
+                    text-align: right;
+                    font-style: italic;
+                    color: $grey;
+                }
+            }
+        }
+
+        &#insert{
+
+            background-color: $secondary;
+            color: #fff;
+            font-size: 28px;
+            line-height: 1.4em;
+
+            @media(max-width: $medium){
+                font-size: 21px;
+            }
+        }
+
+        &#stories{
+
+            & .col{
+
+                margin-bottom: 3.5rem;
+
+                & .name{
+                    margin-top: 16px;
+                    font-size: 21px;
+                    font-weight: 500;
+                }
+
+                & .lazy{
+                    padding-bottom: 75%;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+
+        &#offen{
+
+            & .section-background{
+
+                min-height: 40vw;
+                background-size: cover;
+                position: relative;
+                display: flex !important;
+                flex-direction: column;
+
+                & .separator{
+                    flex-grow: 1;
+                    min-height: 1.5rem;
+                }
+
+                & .central-message{
+                    width: 45vw;
+                    min-width: 280px;
+                    margin: auto;
+                    text-align: center;
+                    padding: 16px;
+                    background: rgba(black, .46);
+                    backdrop-filter: blur(20px);
+                    color: #fff;
+
+                    @media(max-width: $medium){
+                        width: calc(100% - 3rem);
+                    }
+
+                    & h3{
+                        margin: 2vw 0;
+                    }
+                }
+
+                & .author{
+                    width: 500px;
+                    margin: auto;
+                    padding: 20px;
+                    background: #fff;
+                    display: flex;
+                    
+                    & .avatar-container{
+                        width: 140px;
+                        flex-shrink: 0;
+
+                        & .avatar{
+                            width: 120px;
+                            height: 120px;
+                            border-radius: 50%;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                    }
+
+                    & .name{
+                        font-weight: 500;
+                    }
+
+                    & .hyphen{
+                        font-size: 14px;
+                        line-height: 1.4em;
+                    }
+
+                    @media(max-width: $medium){
+                        width: calc(100% - 3rem);
+                        flex-direction: column;
+                        text-align: center;
+                        justify-content: center;
+
+                        & .avatar-container{
+                            
+                            width: 100%;
+
+                            & .avatar{
+                                margin: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &#pity{
+
+            & .lazy{
+                padding-bottom: 75%;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+    }
+
+    & .lazy{
+
+        transition: transform .4s, opacity .4s;
+
+        &.invisible{
+            transform: translateY(60px);
+            opacity: 0;
+        }
+
+        &.visivle{
+            transform: none;
+            opacity: 1;
+        }
+    }
+
+    & .col{
+
+        @for $i from 1 to 20{
+
+            &:nth-child(#{$i}){
+
+                & .lazy{
+                    transition-delay: #{$i * .1}s;
+                }
+            }
+        }
+    }
+}

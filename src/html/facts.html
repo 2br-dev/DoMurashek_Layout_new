@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./parts/head.html', {title: "Факты, которые решают"})
+<body>
+    @@include('./parts/header.html')
+    <main id="facts">
+        <section id="hero">
+            <div class="photo-copyright">Фото – © Василий Ярошевич</div>
+            <div class="lazy" data-src="/img/facts-section.jpg"></div>
+        </section>
+        <section id="link-wrapper">
+            <div class="row flex">
+                <div class="col xl5 l5 m12 align-center-l-down">
+                    <h1>Факты, которые решают</h1>
+                </div>
+                <div class="col xl6 l6 m12">
+                    <p class="hyphen">
+                        На протяжении длительного времени сформировался целый ряд 
+                        предрассудков, которые формируют негативное отношение 
+                        к людям с синдромом Дауна. Мы приведём лишь несколько, 
+                        и поможем понять, что синдром Дауна – не болезнь, 
+                        и не приговор, это лишь особенность, которую нужно учитывать.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="facts">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h2>Факты о синдроме дауна</h2>
+                    </div>
+                    @@loop('./parts/fact.html', './data/facts.json')
+                </div>
+            </div>
+        </section>
+        <section id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h2>Почему это важная тема?</h2>
+                    </div>
+                    <div class="col xl4 offset-xl4 l6 offset-l3 m12 center-align">
+                        <p class="hyphen">
+                            Потому что мы до сих пор думаем, что синдром Дауна – это горе и безысходность.
+                            Эти мысли кажутся такими очевидными не правда ли?
+                            Никогда не задумывались отчего они возникают?
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    @@loop('./parts/reason.html', './data/reasons.json')
+                </div>
+                <div class="row">
+                    <div class="col l4 offset-l4 m6 offset-m3 s12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="insert">
+            <div class="container">
+                <div class="row">
+                    <div class="col center-align">
+                        В обществе действительно есть те, которые негативно относятся к особенным людям. 
+                        Мы бы хотели доказать вам, что эта неприязнь ничем не обоснована :) и связана 
+                        она прежде всего с незнанием и застарелыми стереотипами. 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="stories">
+            <div class="container">
+                <div class="row">
+                    <div class="col center-align">
+                        <h2>Истории успеха</h2>
+                    </div>
+                </div>
+                <div class="row flex">
+                    @@loop('./parts/story.html', './data/stories.json')
+                </div>
+            </div>
+        </section>
+        <section id="offen">
+            <div class="lazy section-background" data-src="/img/people.jpg">
+                <div class="separator"></div>
+                <div class="central-message">
+                    <h3>51 тысяча людей</h3>
+                    <p class="hyphen">
+                        Не задумывались, почему мы встречаем их так редко? А ведь людей с СД очень много
+                        Модель Герта да Граафа и его коллег даёт цифру в 51 тысячу людей с синдромом Дауна в России
+                    </p>
+                </div>
+                <div class="separator"></div>
+                <div class="author">
+                    <div class="avatar-container">
+                        <div class="avatar lazy" data-src="/img/author.jpg"></div>
+                    </div>
+                    <div class="data">
+                        <div class="name">Герт де Грааф</div>
+                        <p class="hyphen">
+                            Руководитель научного направления из голландского Down
+                            Syndrome Foundation, автор ряда статей, посвященных
+                            вопросу оценки количества людей с синдромом Дауна в разных странах мира.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pity">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h2>Чувство жалости оставьте при себе</h2>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="lazy" data-src="/img/pity/dont-need.jpg"></div>
+                        <p>
+                            «Солнечным» людям не нужна жалость. Им, как и всем, нужна поддержка, внимание, дружба, любовь и понимание. 
+                            Родители детей с  синдромом Дауна – не герои и не жертвы. Они просто любят своих детей.
+                        </p>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="lazy" data-src="/img/pity/need.jpg"></div>
+                        <p>
+                            Ребенок с синдром Дауна может родиться в любой семье независимо от национальности, образа жизни и соц. статуса
+                            родителей. Люди с СД получают образование, участвуют в соревнованиях, выигрывают олимпиады, играют в театре и работают.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    @@include('./parts/footer.html')
+    @@include('./parts/scripts.html')
+</body>
+</html>
