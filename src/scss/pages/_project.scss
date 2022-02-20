@@ -64,6 +64,57 @@ $hero-height: 90vh;
                     background-size: 100% 100%;
                 }
             }
+
+            & .superviser{
+
+                display: flex;
+                align-items: center;
+                color: $luchiki-secondary;
+                
+                & .avatar{
+                    
+                    & .lazy{
+                        background-size: cover;
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        box-shadow: 0 0 0 4px #fff, 0 0 0 5px $luchiki-secondary;
+                    }
+                }
+                
+                & .info{
+                    padding-left: 20px;
+                    
+                    & span{
+                        display: block;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        line-height: 1em;
+                    }
+                    
+                    & a{
+                        display: block;
+                        color: $luchiki-secondary;
+                        font-weight: 500;
+                    }
+                }
+
+                &:hover{
+
+                    color: $luchiki-primary;
+
+                    & .avatar{
+
+                        & .lazy{
+                            box-shadow: 0 0 0 4px #fff, 0 0 0 5px $luchiki-primary;
+                        }
+                    }
+
+                    & a{
+                        color: $luchiki-primary;
+                    }
+                }
+            }
         }
 
         &#heroes{
