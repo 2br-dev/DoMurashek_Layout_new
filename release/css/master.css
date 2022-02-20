@@ -26977,97 +26977,97 @@ main#main section {
       main#main section#heroes-grid .grid-wrapper.invisible .grid-image {
         opacity: 0; }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(1) {
-          transform: translateZ(314px); }
+          transform: translateZ(274px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(1) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(2) {
-          transform: translateZ(285px); }
+          transform: translateZ(362px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(2) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(3) {
-          transform: translateZ(243px); }
+          transform: translateZ(225px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(3) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(4) {
-          transform: translateZ(251px); }
+          transform: translateZ(337px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(4) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(5) {
-          transform: translateZ(311px); }
+          transform: translateZ(369px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(5) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(6) {
-          transform: translateZ(260px); }
+          transform: translateZ(304px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(6) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(7) {
-          transform: translateZ(388px); }
+          transform: translateZ(280px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(7) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(8) {
-          transform: translateZ(358px); }
+          transform: translateZ(354px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(8) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(9) {
-          transform: translateZ(212px); }
+          transform: translateZ(333px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(9) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(10) {
-          transform: translateZ(356px); }
+          transform: translateZ(284px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(10) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(11) {
-          transform: translateZ(295px); }
+          transform: translateZ(244px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(11) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(12) {
-          transform: translateZ(271px); }
+          transform: translateZ(365px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(12) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(13) {
-          transform: translateZ(336px); }
+          transform: translateZ(254px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(13) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(14) {
-          transform: translateZ(275px); }
+          transform: translateZ(313px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(14) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(15) {
-          transform: translateZ(260px); }
+          transform: translateZ(220px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(15) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(16) {
-          transform: translateZ(224px); }
+          transform: translateZ(265px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(16) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(17) {
-          transform: translateZ(236px); }
+          transform: translateZ(290px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(17) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(18) {
-          transform: translateZ(312px); }
+          transform: translateZ(370px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(18) {
               transform: none; } }
         main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(19) {
-          transform: translateZ(396px); }
+          transform: translateZ(370px); }
           @media (max-width: 800px) {
             main#main section#heroes-grid .grid-wrapper.invisible .grid-image:nth-child(19) {
               transform: none; } }
@@ -27259,185 +27259,185 @@ main#main section {
               animation: move 6s linear infinite;
       z-index: -1; }
       main#main section#possibilities .bokeh-particle:nth-child(1) {
-        color: #fae9ff;
-        top: 84%;
-        left: 31%;
-        transform-origin: -9vw 7vh;
-        box-shadow: -40vmin 0 6.67703vmin currentColor; }
-      main#main section#possibilities .bokeh-particle:nth-child(2) {
-        color: #ffffff;
-        top: 84%;
-        left: 7%;
-        transform-origin: -11vw -15vh;
-        box-shadow: 40vmin 0 9.59171vmin currentColor; }
-      main#main section#possibilities .bokeh-particle:nth-child(3) {
         color: #ebf8ff;
-        top: 28%;
-        left: 92%;
-        transform-origin: -22vw -24vh;
-        box-shadow: 40vmin 0 10.42374vmin currentColor; }
+        top: 16%;
+        left: 60%;
+        transform-origin: -19vw 3vh;
+        box-shadow: -40vmin 0 5.75193vmin currentColor; }
+      main#main section#possibilities .bokeh-particle:nth-child(2) {
+        color: #ebf8ff;
+        top: 55%;
+        left: 97%;
+        transform-origin: 10vw 17vh;
+        box-shadow: -40vmin 0 5.73634vmin currentColor; }
+      main#main section#possibilities .bokeh-particle:nth-child(3) {
+        color: #fae9ff;
+        top: 36%;
+        left: 79%;
+        transform-origin: 23vw -18vh;
+        box-shadow: -40vmin 0 11.89911vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(4) {
         color: #ebf8ff;
-        top: 59%;
-        left: 37%;
-        transform-origin: -23vw 10vh;
-        box-shadow: -40vmin 0 11.14266vmin currentColor; }
+        top: 27%;
+        left: 15%;
+        transform-origin: -10vw -15vh;
+        box-shadow: -40vmin 0 6.9346vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(5) {
-        color: #ebf8ff;
-        top: 66%;
-        left: 41%;
-        transform-origin: -20vw -11vh;
-        box-shadow: 40vmin 0 8.74152vmin currentColor; }
+        color: #fae9ff;
+        top: 56%;
+        left: 32%;
+        transform-origin: 22vw -14vh;
+        box-shadow: -40vmin 0 13.62541vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(6) {
         color: #ebf8ff;
-        top: 31%;
-        left: 29%;
-        transform-origin: 2vw 22vh;
-        box-shadow: 40vmin 0 14.94082vmin currentColor; }
+        top: 39%;
+        left: 7%;
+        transform-origin: 19vw 15vh;
+        box-shadow: 40vmin 0 7.30644vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(7) {
         color: #fae9ff;
-        top: 98%;
-        left: 99%;
-        transform-origin: 0vw -16vh;
-        box-shadow: -40vmin 0 9.47573vmin currentColor; }
+        top: 97%;
+        left: 41%;
+        transform-origin: -7vw -13vh;
+        box-shadow: -40vmin 0 10.0241vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(8) {
         color: #fae9ff;
-        top: 15%;
-        left: 75%;
-        transform-origin: -19vw 18vh;
-        box-shadow: 40vmin 0 11.72999vmin currentColor; }
+        top: 78%;
+        left: 61%;
+        transform-origin: -24vw 18vh;
+        box-shadow: 40vmin 0 13.4011vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(9) {
-        color: #fae9ff;
-        top: 17%;
-        left: 21%;
-        transform-origin: -15vw -15vh;
-        box-shadow: 40vmin 0 9.2618vmin currentColor; }
+        color: #ebf8ff;
+        top: 35%;
+        left: 4%;
+        transform-origin: 17vw -16vh;
+        box-shadow: 40vmin 0 7.05659vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(10) {
-        color: #fae9ff;
-        top: 31%;
-        left: 90%;
-        transform-origin: -22vw -3vh;
-        box-shadow: -40vmin 0 12.71211vmin currentColor; }
+        color: #ebf8ff;
+        top: 12%;
+        left: 55%;
+        transform-origin: 13vw -22vh;
+        box-shadow: 40vmin 0 11.03427vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(11) {
-        color: #fae9ff;
-        top: 67%;
-        left: 59%;
-        transform-origin: -17vw -16vh;
-        box-shadow: 40vmin 0 12.95061vmin currentColor; }
+        color: #ffffff;
+        top: 91%;
+        left: 81%;
+        transform-origin: -18vw -22vh;
+        box-shadow: 40vmin 0 10.61444vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(12) {
         color: #ebf8ff;
-        top: 30%;
-        left: 73%;
-        transform-origin: 1vw -1vh;
-        box-shadow: -40vmin 0 7.3757vmin currentColor; }
+        top: 61%;
+        left: 24%;
+        transform-origin: 14vw -8vh;
+        box-shadow: -40vmin 0 10.77567vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(13) {
         color: #ebf8ff;
-        top: 56%;
-        left: 62%;
-        transform-origin: 25vw -6vh;
-        box-shadow: -40vmin 0 12.07147vmin currentColor; }
+        top: 11%;
+        left: 9%;
+        transform-origin: 0vw -7vh;
+        box-shadow: 40vmin 0 6.54441vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(14) {
         color: #ffffff;
-        top: 72%;
-        left: 9%;
-        transform-origin: -8vw 14vh;
-        box-shadow: 40vmin 0 9.20675vmin currentColor; }
+        top: 69%;
+        left: 53%;
+        transform-origin: -1vw 23vh;
+        box-shadow: -40vmin 0 11.42113vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(15) {
-        color: #ffffff;
-        top: 89%;
-        left: 2%;
-        transform-origin: -7vw -13vh;
-        box-shadow: -40vmin 0 8.26463vmin currentColor; }
+        color: #fae9ff;
+        top: 40%;
+        left: 96%;
+        transform-origin: 7vw 11vh;
+        box-shadow: 40vmin 0 7.74847vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(16) {
-        color: #ffffff;
-        top: 16%;
-        left: 18%;
-        transform-origin: 10vw -4vh;
-        box-shadow: -40vmin 0 8.84015vmin currentColor; }
+        color: #fae9ff;
+        top: 32%;
+        left: 50%;
+        transform-origin: 3vw 12vh;
+        box-shadow: -40vmin 0 6.79222vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(17) {
-        color: #fae9ff;
-        top: 7%;
-        left: 63%;
-        transform-origin: -13vw 18vh;
-        box-shadow: 40vmin 0 13.55146vmin currentColor; }
+        color: #ebf8ff;
+        top: 92%;
+        left: 67%;
+        transform-origin: 12vw 1vh;
+        box-shadow: -40vmin 0 13.08885vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(18) {
-        color: #fae9ff;
-        top: 25%;
-        left: 99%;
-        transform-origin: -12vw -8vh;
-        box-shadow: 40vmin 0 9.551vmin currentColor; }
+        color: #ffffff;
+        top: 63%;
+        left: 89%;
+        transform-origin: 23vw -1vh;
+        box-shadow: -40vmin 0 13.08275vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(19) {
         color: #ebf8ff;
-        top: 41%;
-        left: 67%;
-        transform-origin: -24vw 0vh;
-        box-shadow: -40vmin 0 5.34104vmin currentColor; }
+        top: 73%;
+        left: 89%;
+        transform-origin: 7vw -3vh;
+        box-shadow: -40vmin 0 14.80994vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(20) {
-        color: #ebf8ff;
-        top: 61%;
-        left: 2%;
-        transform-origin: -4vw 12vh;
-        box-shadow: 40vmin 0 11.52057vmin currentColor; }
-      main#main section#possibilities .bokeh-particle:nth-child(21) {
         color: #ffffff;
-        top: 9%;
-        left: 22%;
-        transform-origin: 19vw 19vh;
-        box-shadow: 40vmin 0 5.81894vmin currentColor; }
+        top: 36%;
+        left: 100%;
+        transform-origin: 14vw 12vh;
+        box-shadow: 40vmin 0 14.4597vmin currentColor; }
+      main#main section#possibilities .bokeh-particle:nth-child(21) {
+        color: #fae9ff;
+        top: 29%;
+        left: 68%;
+        transform-origin: -3vw -18vh;
+        box-shadow: -40vmin 0 11.72333vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(22) {
         color: #fae9ff;
-        top: 92%;
-        left: 10%;
-        transform-origin: 6vw 23vh;
-        box-shadow: 40vmin 0 5.57525vmin currentColor; }
+        top: 29%;
+        left: 24%;
+        transform-origin: -6vw 16vh;
+        box-shadow: -40vmin 0 12.75363vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(23) {
         color: #fae9ff;
-        top: 51%;
-        left: 20%;
-        transform-origin: -1vw 12vh;
-        box-shadow: 40vmin 0 10.22558vmin currentColor; }
+        top: 90%;
+        left: 66%;
+        transform-origin: 12vw 4vh;
+        box-shadow: 40vmin 0 9.76333vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(24) {
         color: #ffffff;
-        top: 70%;
-        left: 51%;
-        transform-origin: 13vw 14vh;
-        box-shadow: 40vmin 0 14.80066vmin currentColor; }
+        top: 35%;
+        left: 100%;
+        transform-origin: -21vw 14vh;
+        box-shadow: 40vmin 0 12.50833vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(25) {
-        color: #fae9ff;
-        top: 31%;
-        left: 15%;
-        transform-origin: -24vw -7vh;
-        box-shadow: -40vmin 0 13.47726vmin currentColor; }
+        color: #ebf8ff;
+        top: 72%;
+        left: 73%;
+        transform-origin: 10vw -4vh;
+        box-shadow: 40vmin 0 13.7262vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(26) {
         color: #ebf8ff;
-        top: 100%;
-        left: 18%;
-        transform-origin: -19vw -11vh;
-        box-shadow: -40vmin 0 8.14076vmin currentColor; }
+        top: 74%;
+        left: 4%;
+        transform-origin: -2vw 13vh;
+        box-shadow: 40vmin 0 14.7846vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(27) {
-        color: #fae9ff;
-        top: 94%;
-        left: 67%;
-        transform-origin: 16vw -4vh;
-        box-shadow: -40vmin 0 7.68612vmin currentColor; }
-      main#main section#possibilities .bokeh-particle:nth-child(28) {
         color: #ffffff;
-        top: 96%;
-        left: 43%;
-        transform-origin: -22vw 16vh;
-        box-shadow: -40vmin 0 5.27505vmin currentColor; }
+        top: 66%;
+        left: 70%;
+        transform-origin: -12vw 7vh;
+        box-shadow: -40vmin 0 7.89461vmin currentColor; }
+      main#main section#possibilities .bokeh-particle:nth-child(28) {
+        color: #fae9ff;
+        top: 80%;
+        left: 82%;
+        transform-origin: 4vw 6vh;
+        box-shadow: 40vmin 0 5.22191vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(29) {
-        color: #ebf8ff;
-        top: 86%;
-        left: 47%;
-        transform-origin: 6vw 1vh;
-        box-shadow: -40vmin 0 7.24085vmin currentColor; }
+        color: #fae9ff;
+        top: 3%;
+        left: 12%;
+        transform-origin: 9vw -21vh;
+        box-shadow: -40vmin 0 12.89652vmin currentColor; }
       main#main section#possibilities .bokeh-particle:nth-child(30) {
         color: #ffffff;
-        top: 49%;
-        left: 33%;
-        transform-origin: 10vw -7vh;
-        box-shadow: 40vmin 0 6.08503vmin currentColor; }
+        top: 55%;
+        left: 2%;
+        transform-origin: -5vw 20vh;
+        box-shadow: -40vmin 0 7.25284vmin currentColor; }
     main#main section#possibilities .row {
       align-items: center; }
       main#main section#possibilities .row.possibility .image-wrapper .lazy {
@@ -27757,41 +27757,41 @@ main#facts .col:nth-child(19) .lazy {
     #luchiki section#heroes .swiper-slide:nth-child(1) .card-container {
       transform: rotate(1deg) translateY(8px); }
     #luchiki section#heroes .swiper-slide:nth-child(2) .card-container {
-      transform: rotate(2deg) translateY(-4px); }
+      transform: rotate(1deg) translateY(4px); }
     #luchiki section#heroes .swiper-slide:nth-child(3) .card-container {
-      transform: rotate(1deg) translateY(-4px); }
-    #luchiki section#heroes .swiper-slide:nth-child(4) .card-container {
-      transform: rotate(2deg) translateY(8px); }
-    #luchiki section#heroes .swiper-slide:nth-child(5) .card-container {
       transform: rotate(0deg) translateY(12px); }
-    #luchiki section#heroes .swiper-slide:nth-child(6) .card-container {
+    #luchiki section#heroes .swiper-slide:nth-child(4) .card-container {
       transform: rotate(2deg) translateY(16px); }
-    #luchiki section#heroes .swiper-slide:nth-child(7) .card-container {
-      transform: rotate(3deg) translateY(-8px); }
-    #luchiki section#heroes .swiper-slide:nth-child(8) .card-container {
-      transform: rotate(1deg) translateY(12px); }
-    #luchiki section#heroes .swiper-slide:nth-child(9) .card-container {
-      transform: rotate(4deg) translateY(16px); }
-    #luchiki section#heroes .swiper-slide:nth-child(10) .card-container {
-      transform: rotate(-1deg) translateY(16px); }
-    #luchiki section#heroes .swiper-slide:nth-child(11) .card-container {
-      transform: rotate(3deg) translateY(20px); }
-    #luchiki section#heroes .swiper-slide:nth-child(12) .card-container {
-      transform: rotate(-2deg) translateY(16px); }
-    #luchiki section#heroes .swiper-slide:nth-child(13) .card-container {
-      transform: rotate(-4deg) translateY(-20px); }
-    #luchiki section#heroes .swiper-slide:nth-child(14) .card-container {
-      transform: rotate(-1deg) translateY(-12px); }
-    #luchiki section#heroes .swiper-slide:nth-child(15) .card-container {
-      transform: rotate(-1deg) translateY(-8px); }
-    #luchiki section#heroes .swiper-slide:nth-child(16) .card-container {
-      transform: rotate(-3deg) translateY(-8px); }
-    #luchiki section#heroes .swiper-slide:nth-child(17) .card-container {
+    #luchiki section#heroes .swiper-slide:nth-child(5) .card-container {
+      transform: rotate(1deg) translateY(16px); }
+    #luchiki section#heroes .swiper-slide:nth-child(6) .card-container {
       transform: rotate(1deg) translateY(-4px); }
-    #luchiki section#heroes .swiper-slide:nth-child(18) .card-container {
-      transform: rotate(-1deg) translateY(-8px); }
-    #luchiki section#heroes .swiper-slide:nth-child(19) .card-container {
+    #luchiki section#heroes .swiper-slide:nth-child(7) .card-container {
+      transform: rotate(-2deg) translateY(4px); }
+    #luchiki section#heroes .swiper-slide:nth-child(8) .card-container {
+      transform: rotate(-2deg) translateY(-4px); }
+    #luchiki section#heroes .swiper-slide:nth-child(9) .card-container {
+      transform: rotate(-4deg) translateY(16px); }
+    #luchiki section#heroes .swiper-slide:nth-child(10) .card-container {
+      transform: rotate(-1deg) translateY(-12px); }
+    #luchiki section#heroes .swiper-slide:nth-child(11) .card-container {
+      transform: rotate(3deg) translateY(-4px); }
+    #luchiki section#heroes .swiper-slide:nth-child(12) .card-container {
+      transform: rotate(2deg) translateY(-4px); }
+    #luchiki section#heroes .swiper-slide:nth-child(13) .card-container {
+      transform: rotate(3deg) translateY(16px); }
+    #luchiki section#heroes .swiper-slide:nth-child(14) .card-container {
+      transform: rotate(-3deg) translateY(-8px); }
+    #luchiki section#heroes .swiper-slide:nth-child(15) .card-container {
+      transform: rotate(2deg) translateY(8px); }
+    #luchiki section#heroes .swiper-slide:nth-child(16) .card-container {
       transform: rotate(-3deg) translateY(0px); }
+    #luchiki section#heroes .swiper-slide:nth-child(17) .card-container {
+      transform: rotate(-2deg) translateY(20px); }
+    #luchiki section#heroes .swiper-slide:nth-child(18) .card-container {
+      transform: rotate(-3deg) translateY(-16px); }
+    #luchiki section#heroes .swiper-slide:nth-child(19) .card-container {
+      transform: rotate(-2deg) translateY(8px); }
     #luchiki section#heroes .swiper-slide .card-container {
       perspective: 1500px;
       position: relative; }
@@ -28174,7 +28174,7 @@ main#project-person {
             padding-bottom: 68%; } }
       main#project-person .my-gallery figure.v {
         width: 16.666%;
-        padding-bottom: 25%; }
+        padding-bottom: 24%; }
         @media (max-width: 1900px) {
           main#project-person .my-gallery figure.v {
             width: 25%;
