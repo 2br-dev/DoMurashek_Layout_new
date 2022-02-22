@@ -179,11 +179,19 @@ main#main{
                     @media(max-width: $medium){
                         width: 50%;
                         padding-bottom: 65%;
+
+                        &:nth-child(n+5){
+                            display: none !important;
+                        }
                     }
 
                     @media(max-width: $small){
                         width: 100%;
                         height: 100vw;
+
+                        &:nth-child(n+4){
+                            display: none;
+                        }
                     }
                 }
 
