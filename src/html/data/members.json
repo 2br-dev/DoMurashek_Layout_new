@@ -1,9 +1,16 @@
 [
     {
+        "avatar": "/img/authors/vaer.jpg",
+        "name": "Ирина Ваер",
+        "rank": "Фотограф, видеограф",
+        "class": "col xl2 l3 m4 s6 xs6 offset-xl1",
+        "instagram": "https://www.instagram.com/irinavaer/"
+    },
+    {
         "avatar": "/img/authors/sultan.jpg",
         "name": "Султан Курбанов",
         "rank": "Визажист, стилист",
-        "class": "col xl2 l3 m4 s6 xs6 offset-xl1",
+        "class": "col xl2 l3 m4 s6 xs6",
         "instagram": "https://www.instagram.com/sultan_kurbanov_/"
     },
     {
@@ -31,14 +38,14 @@
         "avatar": "/img/authors/helen.jpg",
         "name": "Елена Плотникова",
         "rank": "Фотограф",
-        "class": "col xl2 l3 m4 s6 xs6",
+        "class": "col offset-xl1 xl2 l3 m4 s6 xs6",
         "instagram": "https://www.instagram.com/artcranberry/"
     },
     {
         "avatar": "/img/authors/tatyana.jpg",
         "name": "Татьяна Бенович",
         "rank": "Художник-флорист",
-        "class": "col xl2 l3 m4 s6 xs6 offset-xl1",
+        "class": "col xl2 l3 m4 s6 xs6",
         "instagram": "https://www.instagram.com/t__fleur/"
     },
     {
@@ -66,14 +73,14 @@
         "avatar": "/img/authors/leo.jpg",
         "name": "Лео",
         "rank": "Ведущий радио DFM, шоумен",
-        "class": "col xl2 l3 m4 s6 xs6",
+        "class": "col xl2 l3 m4 s6 xs6 offset-xl1",
         "instagram": "https://www.instagram.com/stefileo1/"
     },
     {
         "avatar": "/img/authors/natasha.jpg",
         "name": "Наташа Теплова",
         "rank": "Преподаватель центра «Ступени», актриса и телеведущая",
-        "class": "col offset-xl2 xl2 l3 m4 s6 xs6",
+        "class": "col xl2 l3 m4 s6 xs6",
         "instagram": "https://www.instagram.com/teploteplo/"
     },
     {
@@ -87,14 +94,14 @@
         "avatar": "/img/authors/tamari.jpg",
         "name": "Давыдова Тамари",
         "rank": "Стоматолог-ортодонт",
-        "class": "col xl2 l3 offset-l3 offset-m2 m4 s6 xs6",
+        "class": "col xl2 l3 m4 s6 xs6",
         "instagram": "https://www.instagram.com/tamucca/"
     },
     {
         "avatar": "/img/authors/margo.jpg",
         "name": "Неижкаша Маргарита",
         "rank": "Фотограф",
-        "class": "col xl2 l3 m4 s6 xs6",
+        "class": "col xl2 l3 m4 s6 xs6 offset-s3",
         "instagram": "https://www.instagram.com/rg12121212/"
     }
 ]
